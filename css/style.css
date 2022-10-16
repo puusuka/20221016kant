@@ -1,0 +1,52 @@
+.flex {
+  display: flex;
+  justify-content: flex-end;
+}
+.header-left{
+    color: #000080;
+    font-size: 40px;
+    margin-top: 20px;
+    margin-right: 640px;
+ }
+ 
+  .header-right {
+      color: #000080;
+      font-size: 18px;
+      margin-top: 20px;
+      margin-right: 40px;
+      font-weight: bold;
+  
+    }
+    .relative {
+      position: relative;
+    }
+    
+    .relative__img {
+      position: absolute;
+     top: 60px;
+     right: 0;
+     left: auto;
+     display: block;
+     width: 50%;
+     z-index: 3;
+        }
+    
+    .absolute {
+      position: absolute;
+      top: 65%;
+      left: 0%;
+      font-size: 75px;
+        }
+        
+    
+    .second {
+     position: absolute;
+     bottom: 10px;
+     left: 5px;
+     background-color: #000080;
+     width: 1050px;
+     height: 150px;
+     z-index: 2;
+         }
+
+   
